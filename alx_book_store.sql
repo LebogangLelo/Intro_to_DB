@@ -1,4 +1,4 @@
--- Create the database
+-- Create the alx_book_store database
 CREATE DATABASE alx_book_store;
 
 -- Use the newly created database
