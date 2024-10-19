@@ -10,8 +10,8 @@ SELECT
     COLUMN_DEFAULT, 
     EXTRA 
 FROM 
-    information_schema.columns 
+    INFORMATION_SCHEMA.COLUMNS 
 WHERE 
-    table_schema = DATABASE() 
-    AND table_name = 'books';
+    TABLE_SCHEMA = DATABASE() 
+    AND TABLE_NAME = 'Books';
 
